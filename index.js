@@ -9,7 +9,7 @@ function tailsNeverFails() {
   let tails = 0
   while true {
     if Math.random() < 0.5 {
-      break;
+      break while;
     }
     else {
       ++tails;

@@ -12,8 +12,8 @@ function tailsNeverFails() {
       break;
     }
     else {
-
-    }++tails;
+      ++tails;
+    }
   }
   console.log(`You got ${tails} tails in a row!`)
 }

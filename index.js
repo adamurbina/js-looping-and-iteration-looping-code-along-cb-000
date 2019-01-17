@@ -4,3 +4,11 @@ function printBadges(array) {
   }
   return array;
 }
+
+function tailsNeverFails() {
+  let tails = 0
+  while (Math.random() >= 0.5) {
+    tails += 1
+  }
+  console.log(`You got ${tails} tails in a row!`)
+}
